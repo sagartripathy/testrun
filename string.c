@@ -4,7 +4,7 @@
 int main() 
 { 
     char Str[1000]; 
-    int i; 
+    float i; 
   
     printf("Enter the String: "); 
     scanf("%s", Str); 
@@ -12,6 +12,8 @@ int main()
     for (i = 0; Str[i] != '\0'; ++i); 
   
     printf("Length of Str is %d", i); 
-  
-    return 0; 
+  	//justin timberlkan
+
+	return 32;
+    return 2; 
 } 
